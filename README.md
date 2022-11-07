@@ -1,6 +1,7 @@
 <h2>Tarefa: Javascript</h2>
 <h3>Autor: Rafaela Mendonça Estefogo</h3>
 <p>Exercícios:
+<br>
 <b>1)</b> Crie duas variáveis com o valor 10 e 100. Mostre o valor da soma, subtração, divisão e multiplicação em um ALERT.
 
 <b>2)</b> Crie um loop que mostre na tela o valor de 10 a 100.
