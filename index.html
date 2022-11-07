@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <title>Rafaela</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <button onclick="ExibirOperacoes()">Exibir Operacoes</button>
+                <p id="exibirOperados"></p>
+            </div>
+            <div class="col-md-4">
+                <button onclick="ExibirTabuadaCinco()">Exibir Tabuada do 5</button>
+                <p id="tabuada5"></p>
+            </div>
+            <div class="col-md-4">
+                <button onclick="ExibirNumeros()">Exibir Numeros (Olhe o Terminal do navegador)</button>
+            </div>
+            <div class="col-md-4">
+                <button onclick="ExibirTabuadaNum()">Calcular Tabuada</button>
+                <p id="tabuada"></p>
+            </div>
+
+            <div class="col-md-4">
+                <button onclick="CustoCarro()">
+                    Calcular o custo de um carro
+                </button>
+            </div>
+
+            <br>
+            <br>
+            <div class="col-md-5">
+                <h2>-- Calculadora --</h2>
+                <fieldset>
+                    <h3>Digite o primeiro número:</h3>
+                    <input id="textinput1" name="textinput" type="number">
+                </fieldset>
+                <fieldset>
+                    <h3>Digite o segundo número:</h3>
+                    <input id="textinput2" name="textinput" type="number">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Selecione a operação desejada:</legend>
+                    <div>
+                        <input type="radio" id="multiplicacao" name="operacao" value="multiplicacao">
+                        <label for="operacao"> Multiplicação </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="divisao" name="operacao" value="divisao">
+                        <label for="operacao"> Divisão </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="soma" name="operacao" value="soma">
+                        <label for="operacao"> Soma </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="subtracao" name="operacao" value="subtracao">
+                        <label for="operacao"> Subtração </label>
+                    </div>
+                </fieldset>
+                <input type="button" id="btnCalcular" value="Calcular" />
+            </div>
+            <div class="col-md-3">
+                <button onclick="Array()">Array</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+    <script src="funcoes.js" type="text/javascript"></script>
+  </body>
+</html>
